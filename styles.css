@@ -1,0 +1,10 @@
+.logo {
+    width: 90px;
+}
+
+@media screen and (min-width: 992px) {
+    .custom_container {
+        width: 70%;
+    }
+}
+
