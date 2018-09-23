@@ -1,6 +1,32 @@
 .logo {
     width: 90px;
 }
+/* #carouselExampleFade {
+    width: 50%;
+    display: inline-block;
+}
+.info {
+    display: inline-block;
+} */
+.overview {
+    position: relative;
+}
+.info {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0;
+}
+.info p {
+    font-size: 1.3rem;
+}
+.fas {
+    font-size: 75px;
+    color: #00bcd4;
+}
+.fa-apple {
+    font-size: 2rem;
+}
 
 @media screen and (min-width: 992px) {
     .custom_container {
